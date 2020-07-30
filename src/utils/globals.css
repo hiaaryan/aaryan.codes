@@ -1,0 +1,10 @@
+/**
+ * Configure your TailwindCSS global settings with this file.
+ *
+ */
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
