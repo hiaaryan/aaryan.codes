@@ -5,13 +5,14 @@
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
-    "build": "yarn install && gatsby build",
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "yarn install & gatsby build"
   },
   "dependencies": {
     "gatsby": "^2.23.12",
