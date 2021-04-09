@@ -54,6 +54,10 @@ function Index() {
                     <p className="flex top-0 mt-6 text-xs lg:text-sm">
                         yea, just ignore that. i deal with it every minute. i have a thing with semicolons and tags.
                     </p>
+
+                    <a rel="noreferrer" href="/resume.pdf" target="_blank" className="flex top-0 mt-6 text-xs lg:text-sm text-blue-500">
+                        resume.pdf
+                    </a>
                 </div>
 
             </>
