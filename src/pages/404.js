@@ -1,14 +1,30 @@
 import React from 'react'
+import SEO from '../layouts/seo'
 
 function Lost() {
 
     return (
 
-            <div className="antialiased font-mono text-gray-900">
-        
-                <div className="p-12 font-mono">
-                    <h3 className="font-bold text-2xl">hello, i am aaryan.</h3>
-                    <span className="text-indigo-400 text-sm lg:text-base">i am from gurugram, india. a self taught web developer.</span>
+            <>
+
+            <SEO title='Aaryan Kapoor // php & js Developer' />
+
+                <div className="max-w-lg">
+                    <h3 className="text-black text-2xl">
+                        <img className="w-14 lg:w-20 mr-3 mb-5 cursor-pointer transform hover:-rotate-12 transform duration-150" src={'/favicon-trimmed.png'} alt="profile" /> hello there, i am aaryan.
+                    </h3>
+
+                    <p className="text-xs lg:text-sm mt-4">
+                        i am from gurugram, india. i am a business student, 
+                        doing my bachelors in business administration.
+                    </p>
+
+                    <p className="text-xs lg:text-sm mt-4">
+                        i am also a self taught web developer.
+                        i created an enterprise resource planner at the age of 17, using laravel & tailwind.
+                        i have been working on several freelance projects since, started two enterprises, 
+                        knowed & foxsys-xyz which are in development.
+                    </p>
 
                     <div className="mt-6 text-sm">
                         <a className="inline-flex items-center" rel="noreferrer" href="https://github.com/myselfaaryan" target="_blank">
@@ -25,18 +41,22 @@ function Lost() {
                         </a>
                     </div>
 
-                    <p className="mt-6 inline-flex items-center">
+                    <p className="mt-6 inline-flex items-center text-sm lg:text-base">
                         <i className="mr-3 fab fa-js-square fa-2x text-yellow-500"></i> :: <i className="ml-3 mr-6 fab fa-react fa-2x text-blue-500"></i> ||
                         
-                        <i className="ml-6 mr-3 fab fa-php fa-2x text-indigo-500"></i> :: <i className="ml-3 fab fa-laravel fa-2x text-red-400"></i>
+                        <i className="ml-6 mr-3 fab fa-php fa-2x text-blue-500"></i> :: <i className="ml-3 fab fa-laravel fa-2x text-red-400"></i>
                     </p>
 
-                    <p className="p-12 absolute inset-x-0 bottom-0 text-sm">
-                        <span className="inline-flex items-center text-gray-500">powered by <svg className="ml-2 w-16" width="283" height="64" viewBox="0 0 283 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M141.04 16c-11.04 0-19 7.2-19 18s8.96 18 20 18c6.67 0 12.55-2.64 16.19-7.09l-7.65-4.42c-2.02 2.21-5.09 3.5-8.54 3.5-4.79 0-8.86-2.5-10.37-6.5h28.02c.22-1.12.35-2.28.35-3.5 0-10.79-7.96-17.99-19-17.99zm-9.46 14.5c1.25-3.99 4.67-6.5 9.45-6.5 4.79 0 8.21 2.51 9.45 6.5h-18.9zM248.72 16c-11.04 0-19 7.2-19 18s8.96 18 20 18c6.67 0 12.55-2.64 16.19-7.09l-7.65-4.42c-2.02 2.21-5.09 3.5-8.54 3.5-4.79 0-8.86-2.5-10.37-6.5h28.02c.22-1.12.35-2.28.35-3.5 0-10.79-7.96-17.99-19-17.99zm-9.45 14.5c1.25-3.99 4.67-6.5 9.45-6.5 4.79 0 8.21 2.51 9.45 6.5h-18.9zM200.24 34c0 6 3.92 10 10 10 4.12 0 7.21-1.87 8.8-4.92l7.68 4.43c-3.18 5.3-9.14 8.49-16.48 8.49-11.05 0-19-7.2-19-18s7.96-18 19-18c7.34 0 13.29 3.19 16.48 8.49l-7.68 4.43c-1.59-3.05-4.68-4.92-8.8-4.92-6.07 0-10 4-10 10zm82.48-29v46h-9V5h9zM36.95 0L73.9 64H0L36.95 0zm92.38 5l-27.71 48L73.91 5H84.3l17.32 30 17.32-30h10.39zm58.91 12v9.69c-1-.29-2.06-.49-3.2-.49-5.81 0-10 4-10 10V51h-9V17h9v9.2c0-5.08 5.91-9.2 13.2-9.2z" fill="#000"/></svg></span>
+                    <p className="flex top-0 mt-6 text-red-600 text-xs lg:text-sm">
+                        ✖ 1 problem (1 error, 0 warnings).
+                    </p>
+
+                    <p className="flex top-0 mt-6 text-xs lg:text-sm">
+                        yea, just ignore that. i deal with it every minute. i have a thing with semicolons and tags.
                     </p>
                 </div>
-            
-            </div>
+
+            </>
 
     )
 }

@@ -1,8 +1,8 @@
-/**
- * Configure your PostCSS settings with this file.
- *
- */
+// postcss.config.js
 
-module.exports = () => ({
-    plugins: [require("tailwindcss")],
-})
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
