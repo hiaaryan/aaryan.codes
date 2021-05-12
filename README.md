@@ -2,7 +2,7 @@
 
 # Hello! I am Aaryan.
 
-[![Build Status](https://travis-ci.com/myselfaaryan/aaryan.codes.svg?branch=master)](https://travis-ci.com/myselfaaryan/aaryan.codes) [![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde)
+[![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde)
 
 This is my personal website built on gatsby & tailwind. If you want to use it as your own, you just need to edit the "**index.js**" file in "**src/pages**" folder.
 
