@@ -15,7 +15,7 @@ function SEO({title}) {
     <Helmet>
         <meta charSet="utf-8" />
         <title>{title}</title>
-        <body className="antialiased font-mono font-light bg-white text-gray-500 p-12" />
+        <body className="antialiased font-serif bg-white text-gray-500 px-8 lg:px-0" />
     </Helmet>
   )
 }

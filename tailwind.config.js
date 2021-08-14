@@ -5,7 +5,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-       'mono': ['JetBrains Mono', 'monospace']
+       'serif': ['Nunito', 'serif']
     },
     extend: {},
   },

@@ -10,13 +10,6 @@ module.exports = {
     'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',
     {
-      resolve: 'gatsby-plugin-load-script',
-      options: {
-        src: 'https://kit.fontawesome.com/9f0e25619b.js',
-        crossOrigin: 'anonymous'
-      },
-    },
-    {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'GatsbyJS',
