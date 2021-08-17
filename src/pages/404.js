@@ -31,7 +31,7 @@ function Lost() {
                         <a className="inline-flex items-center hover:text-gray-400 transform duration-200 focus:outline-none" rel="noreferrer" href="/resume.pdf" target="_blank">
                             Resume <IconArrowUpRight className="ml-1" size={24} />
                         </a>
-                        <a className="inline-flex items-center hover:text-gray-400 transform duration-200 focus:outline-none" rel="noreferrer" href="/resume.pdf" target="_blank">
+                        <a className="inline-flex items-center hover:text-gray-400 transform duration-200 focus:outline-none" rel="noreferrer" href="https://github.com/hiaaryan" target="_blank">
                             GitHub <IconBrandGithub className="ml-1.5 mb-0.5" size={21} />
                         </a>
                     </div>
