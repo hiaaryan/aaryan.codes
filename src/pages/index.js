@@ -24,7 +24,7 @@ function Index() {
                         <span className="text-black"> manage and market brands</span>. Just for some more thrill, I code in <span className="text-black">php & js</span> as a hobby.
                     </p>
 
-                    <div className="grid lg:grid-flow-col grid-flow-row lg:gap-4 gap-1 mt-8 lg:text-base text-sm">
+                    <div className="flex lg:gap-4 gap-2 mt-8 lg:text-base text-sm">
                         <a className="inline-flex items-center hover:text-gray-400 transform duration-200 focus:outline-none" rel="noreferrer" href="https://linkedin.com/in/hiaaryan" target="_blank">
                             LinkedIn <IconBrandLinkedin className="ml-1" size={24} />
                         </a>
