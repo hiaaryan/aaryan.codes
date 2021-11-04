@@ -11,7 +11,7 @@ function Index() {
             <SEO title='Aaryan Kapoor' />
 
                 <div className="h-screen flex flex-col justify-center lg:items-center overflow-hidden">
-                    <img className="w-24 lg:w-40 rounded-full" src="/avatar.png" alt="avatar" />
+                    <img className="w-32 lg:w-40 rounded-full" src="/avatar.png" alt="avatar" />
 
                     <h3 className="mt-8 w-full text-black lg:text-4xl text-2xl lg:text-center">
                         Hi, I am Aaryan.
