@@ -20,7 +20,7 @@ function Index() {
                     <p className="lg:max-w-full max-w-xl mt-6 text-gray-400 lg:text-lg text-sm">
                         I am a student from Gurugram, India,
                         studying <span className="text-black">business administration </span>
-                        in <span className="text-black">JK Business School</span>.<br className="lg:flex hidden" /> I love to
+                        at <span className="text-black">JK Business School</span>.<br className="lg:flex hidden" /> I love to
                         <span className="text-black"> manage and market brands</span>. Just for some more thrill, I code in <span className="text-black">php & js</span> as a hobby.
                     </p>
 
