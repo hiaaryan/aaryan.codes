@@ -4,6 +4,9 @@
   "description": "my personal & dear website 🥚",
   "version": "0.1.1",
   "license": "0BSD",
+  "engines" : { 
+    "node" : ">=14.15.0"
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
