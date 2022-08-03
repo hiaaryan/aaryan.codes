@@ -1,17 +1,18 @@
-// tailwind.config.js
+/** @type {import('tailwindcss').Config} */
+
+const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
   content: [
-    './src/**/*.{js,jsx,ts,tsx}'
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontFamily: {
-       'serif': ['Nunito', 'serif']
+    extend: {
+      fontFamily: {
+				'mono': ['JetBrains Mono', ...defaultTheme.fontFamily.mono],
+			},
     },
-    extend: {},
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 }

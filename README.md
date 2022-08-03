@@ -4,17 +4,17 @@
 
 [![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde)
 
-This is my personal website built on gatsby & tailwind. If you want to use it as your own, you just need to edit the "**index.js**" file in "**src/pages**" folder.
+This is my personal website built on nextjs & tailwind. If you want to use it as your own, you just need to edit the "**index.tsx**" file in "**/pages**" folder.
 
 ## Installation
 
-This application requires just gatsby for a build as minimum. Obviously, you should have gatsby-cli installed via yarn or npm.
+This application requires just nextjs for a build as minimum.
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-$ cd aaryan.codes
+$ cd website
 $ yarn install
-$ gatsby develop
+$ yarn dev
 ```
 
 For production environments.
