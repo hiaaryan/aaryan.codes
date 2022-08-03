@@ -27,13 +27,13 @@ const Home: NextPage = () => {
             </div>
 
             <div className="text-xs lg:text-base absolute bottom-8 lg:bottom-16 flex justify-center gap-6">
-              <a href="https://www.linkedin.com/in/hiaaryan" target="_blank" className="flex items-center text-gray-400 hover:text-black transition duration-150">
+              <a href="https://www.linkedin.com/in/hiaaryan" target="_blank" rel="noreferrer" className="flex items-center text-gray-400 hover:text-black transition duration-150">
                 <IconBrandLinkedin className="w-6 mr-1.5 mb-0.5" stroke={2} /> LinkedIn
               </a>
-              <a href="https://github.com/hiaaryan" target="_blank" className="flex items-center text-gray-400 hover:text-black transition duration-150">
+              <a href="https://github.com/hiaaryan" target="_blank" rel="noreferrer" className="flex items-center text-gray-400 hover:text-black transition duration-150">
                 <IconBrandGithub className="w-5 mr-1.5 mb-0.5" stroke={2} /> GitHub
               </a>
-              <a href={'/resume.pdf'} target="_blank" className="flex items-center text-gray-400 hover:text-black transition duration-150">
+              <a href={'/resume.pdf'} target="_blank" rel="noreferrer" className="flex items-center text-gray-400 hover:text-black transition duration-150">
                 <IconArrowUpRight className="w-6 mr-1.5" stroke={2} /> Resume
               </a>
             </div>
