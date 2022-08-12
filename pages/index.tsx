@@ -6,7 +6,7 @@ import Head from 'next/head'
 const Home: NextPage = () => {
 
   const images = ['hand', 'heart', 'hey', 'okay'];
-  const [currentImage, setCurrentImage] = useState('');
+  const [currentImage, setCurrentImage] = useState('hand');
 
   useEffect(() => {
       const intervalId = setInterval(() => {
