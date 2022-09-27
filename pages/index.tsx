@@ -17,11 +17,15 @@ const Home: NextPage = () => {
   }, [])
 
   return (
-    <div className="font-mono bg-white h-screen w-screen">
+    <div className="font-sans bg-white h-screen w-screen">
       <Head>
         <title>aaryan kapoor // creative brand strategist</title>
         <meta name="description" content="🙋🏻‍♂️ hey there, i am aaryan. i am a developer, and a digital marketer specializing in brand design &amp; management." />
         <link rel="icon" href="/favicon.png" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='true' />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></link>
       </Head>
 
       <main className="flex items-center justify-center content h-screen p-4 lg:p-16 cursor-crosshair select-none">
@@ -34,11 +38,11 @@ const Home: NextPage = () => {
                 <span className="text-base font-bold">
                   hey i am,
                 </span>
-                <h1 className="mb-6 text-4xl lg:text-5xl font-black">
+                <h1 className="mb-6 text-4xl lg:text-5xl font-500">
                   aaryan kapoor.
                 </h1>
                 <p className="text-sm lg:text-base">
-                  a creative brand strategist who loves to design stuff &
+                  a creative marketing & brand enthusiast &
                   a self taught web developer specializing in php, js and css.
                 </p>
               </div>
