@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+        mono: ['Space Mono', ...defaultTheme.fontFamily.mono],
 			},
     },
   },

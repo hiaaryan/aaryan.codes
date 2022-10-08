@@ -17,7 +17,7 @@ const Home: NextPage = () => {
   }, [])
 
   return (
-    <div className="font-sans bg-white h-screen w-screen">
+    <div className="font-mono text-white bg-black h-screen w-screen">
       <Head>
         <title>aaryan kapoor // creative brand strategist</title>
         <meta name="description" content="🙋🏻‍♂️ hey there, i am aaryan. i am a developer, and a digital marketer specializing in brand design &amp; management." />
@@ -25,37 +25,34 @@ const Home: NextPage = () => {
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='true' />
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"></link>
       </Head>
 
-      <main className="flex items-center justify-center content h-screen p-4 lg:p-16 cursor-crosshair select-none">
-          <div className="w-full">
+      <main className="flex items-center justify-center content w-screen h-screen p-4 lg:p-16 select-none">
+          <div className="w-full z-50">
             <div className="w-full flex-col text-center lg:text-left">
-              <div className="flex justify-center lg:justify-start">
-                <img alt="greeting image" className="w-16 animate-bounce" src={'/' + currentImage + '.png'} />
-              </div>
-              <div className="py-6 lg:max-w-xl">
-                <span className="text-base font-bold">
-                  hey i am,
+              <div className="py-6 lg:max-w-2xl">
+                <span className="text-base">
+                  hello there, i am
                 </span>
-                <h1 className="mb-6 text-4xl lg:text-5xl font-500">
+                <h1 className="mb-6 text-4xl lg:text-5xl font-700">
                   aaryan kapoor.
                 </h1>
                 <p className="text-sm lg:text-base">
-                  a creative marketing & brand enthusiast &
-                  a self taught web developer specializing in php, js and css.
+                  a <span className="cursor-pointer hover:text-yellow-300 hover:underline underline-offset-4">creative marketing & branding enthusiast</span> and <br className="lg:block hidden" />
+                  a <span className="cursor-pointer hover:text-blue-300 hover:underline underline-offset-4">self taught web developer</span> specializing in php, js and css.
                 </p>
               </div>
             </div>
 
             <div className="w-full lg:w-auto lg:gap-6 text-sm lg:text-base flex justify-evenly lg:justify-start">
-              <a href="https://www.linkedin.com/in/hiaaryan" target="_blank" rel="noreferrer" className="flex items-center text-gray-400 hover:text-black transition duration-150">
+              <a href="https://www.linkedin.com/in/hiaaryan" target="_blank" rel="noreferrer" className="flex items-center text-gray-400 hover:text-white transition duration-150">
                 <IconBrandLinkedin className="w-5 mr-1.5 mb-0.5" stroke={2} /> LinkedIn
               </a>
-              <a href="https://github.com/hiaaryan" target="_blank" rel="noreferrer" className="flex items-center text-gray-400 hover:text-black transition duration-150">
+              <a href="https://github.com/hiaaryan" target="_blank" rel="noreferrer" className="flex items-center text-gray-400 hover:text-white transition duration-150">
                 <IconBrandGithub className="w-4 mr-1.5 mb-0.5" stroke={2} /> GitHub
               </a>
-              <a href={'/resume.pdf'} target="_blank" rel="noreferrer" className="flex items-center text-gray-400 hover:text-black transition duration-150">
+              <a href={'/resume.pdf'} target="_blank" rel="noreferrer" className="flex items-center text-gray-400 hover:text-white transition duration-150">
                 <IconArrowUpRight className="w-5 mr-1.5" stroke={2} /> Resume
               </a>
             </div>
