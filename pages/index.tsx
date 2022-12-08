@@ -1,4 +1,4 @@
-import { IconArrowUpRight, IconBrandGithub, IconBrandLinkedin } from '@tabler/icons'
+import { IconArrowUpRight, IconAt, IconBrandGithub, IconBrandLinkedin, IconCertificate2, IconFile, IconFileExport, IconMail } from '@tabler/icons'
 import { useState, useEffect } from 'react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
   }, [])
 
   return (
-    <div className="font-mono text-white bg-black h-screen w-screen">
+    <div className="font-sans h-screen w-screen">
       <Head>
         <title>aaryan kapoor // creative brand strategist</title>
         <meta name="description" content="🙋🏻‍♂️ hey there, i am aaryan. i am a developer, and a digital marketer specializing in brand design &amp; management." />
@@ -25,35 +25,34 @@ const Home: NextPage = () => {
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='true' />
-        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&display=swap" rel="stylesheet" />
       </Head>
 
-      <main className="flex items-center justify-center content w-screen h-screen p-4 lg:p-16 select-none">
+      <main className="flex items-center justify-center w-screen h-screen p-8 lg:p-16 select-none">
           <div className="w-full z-50">
-            <div className="w-full flex-col text-center lg:text-left">
-              <div className="py-6 lg:max-w-2xl">
-                <span className="text-base">
-                  hello there, i am
-                </span>
-                <h1 className="mb-6 text-4xl lg:text-5xl font-700">
-                  aaryan kapoor.
-                </h1>
-                <p className="text-sm lg:text-base">
-                  a <span className="cursor-pointer hover:text-yellow-300 hover:underline underline-offset-4">creative marketing & branding enthusiast</span> and <br className="lg:block hidden" />
-                  a <span className="cursor-pointer hover:text-blue-300 hover:underline underline-offset-4">self taught web developer</span> specializing in php, js and css.
+            <div className="w-full flex-col text-left">
+              <div className="py-6 font-semibold text-4xl">
+                Hello there! <br />
+                I am <span className="text-blue-700 font-semibold">Aaryan Kapoor</span> :)
+                <p className="mt-6 text-xl font-semibold lg:max-w-2xl">
+                  I am currently based in the UK to persue my <br className="hidden lg:block" /> Masters in Marketing and Brand Management
+                  from <br className="hidden lg:block" /> Nottingham Trent University. <br className="hidden lg:block" /><br className="hidden lg:block" />
+
+                  I love to work on amazing brand experiences and marketing strategies. <br />
                 </p>
               </div>
             </div>
 
-            <div className="w-full lg:w-auto lg:gap-6 text-sm lg:text-base flex justify-evenly lg:justify-start">
-              <a href="https://www.linkedin.com/in/hiaaryan" target="_blank" rel="noreferrer" className="flex items-center text-gray-400 hover:text-white transition duration-150">
-                <IconBrandLinkedin className="w-5 mr-1.5 mb-0.5" stroke={2} /> LinkedIn
+            <div className="mt-6 w-full gap-1 text-lg font-semibold flex lg:justify-start">
+              <a href="https://www.linkedin.com/in/hiaaryan" target="_blank" rel="noreferrer" className="hover:drop-shadow-lg text-blue-500 flex items-center transition duration-150">
+                <IconBrandLinkedin className="mr-1.5" stroke={2} size={24} />
               </a>
-              <a href="https://github.com/hiaaryan" target="_blank" rel="noreferrer" className="flex items-center text-gray-400 hover:text-white transition duration-150">
-                <IconBrandGithub className="w-4 mr-1.5 mb-0.5" stroke={2} /> GitHub
+              <a href="mailto:hi.aaryankapoor@gmail.com" target="_blank" rel="noreferrer" className="hover:drop-shadow-lg flex items-center text-green-500 transition duration-150">
+                <IconAt className="mr-1.5" stroke={2} size={21} />
               </a>
-              <a href={'/resume.pdf'} target="_blank" rel="noreferrer" className="flex items-center text-gray-400 hover:text-white transition duration-150">
-                <IconArrowUpRight className="w-5 mr-1.5" stroke={2} /> Resume
+              <a href="/resume.pdf" target="_blank" rel="noreferrer" className="hover:drop-shadow-lg flex items-center text-orange-500 transition duration-150">
+                <IconFileExport className="mr-1.5" stroke={2} size={20} /> View my Resume
               </a>
             </div>
           </div>
