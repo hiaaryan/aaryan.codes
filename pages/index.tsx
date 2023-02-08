@@ -1,21 +1,9 @@
-import { IconArrowUpRight, IconAt, IconBrandGithub, IconBrandLinkedin, IconCertificate2, IconFile, IconFileExport, IconMail } from '@tabler/icons'
+import { IconAt, IconBrandLinkedin, IconFileExport } from '@tabler/icons'
 import { useState, useEffect } from 'react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
 const Home: NextPage = () => {
-
-  const images = ['hand', 'heart', 'hey', 'okay'];
-  const [currentImage, setCurrentImage] = useState('hand');
-
-  useEffect(() => {
-      const intervalId = setInterval(() => {
-          setCurrentImage(images[Math.floor(Math.random() * images.length)]);
-      }, 1000)
-
-      return () => clearInterval(intervalId);
-  }, [])
-
   return (
     <div className="font-sans h-screen w-screen">
       <Head>
@@ -31,19 +19,19 @@ const Home: NextPage = () => {
       <main className="flex items-center justify-center w-screen h-screen p-8 lg:p-16 select-none">
           <div className="w-full z-50">
             <div className="w-full flex-col text-left">
-              <div className="py-6 font-semibold text-4xl">
+              <div className="py-6 font-semibold text-2xl lg:text-4xl">
                 Hello there! <br />
                 I am <span className="text-blue-700 font-semibold">Aaryan Kapoor</span> :)
-                <p className="mt-6 text-xl font-semibold lg:max-w-2xl">
-                  I am currently based in the UK to persue my <br className="hidden lg:block" /> Masters in Marketing and Brand Management
+                <p className="mt-6 text-base lg:text-xl font-semibold lg:max-w-2xl">
+                  I am currently based in the UK persuing my <br className="hidden lg:block" /> Masters in Marketing and Brand Management
                   from <br className="hidden lg:block" /> Nottingham Trent University. <br className="hidden lg:block" /><br className="hidden lg:block" />
 
-                  I love to work on amazing brand experiences and marketing strategies. <br />
+                  I love to work on amazing brand experiences and strategies. <br />
                 </p>
               </div>
             </div>
 
-            <div className="mt-6 w-full gap-1 text-lg font-semibold flex lg:justify-start">
+            <div className="mt-3 lg:mt-6 w-full gap-1 text-base lg:text-lg font-semibold flex lg:justify-start">
               <a href="https://www.linkedin.com/in/hiaaryan" target="_blank" rel="noreferrer" className="hover:drop-shadow-lg text-blue-500 flex items-center transition duration-150">
                 <IconBrandLinkedin className="mr-1.5" stroke={2} size={24} />
               </a>
