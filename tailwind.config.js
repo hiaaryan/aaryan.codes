@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Indie Flower', ...defaultTheme.fontFamily.sans],
+        'mono': ['IBM Plex Mono', ...defaultTheme.fontFamily.mono],
 			},
     },
   },
