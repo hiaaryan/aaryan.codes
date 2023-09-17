@@ -1,4 +1,4 @@
-<img align="left" src="https://raw.githubusercontent.com/hiaaryan/website/master/public/favicon.png" width="64">
+<img align="left" src="https://raw.githubusercontent.com/hiaaryan/website/master/public/memoji.png" width="64">
 
 # Hello! I am Aaryan.
 

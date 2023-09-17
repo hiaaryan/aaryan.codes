@@ -8,9 +8,13 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    cursor: {
+      'default': 'url(pointer.cur), default',
+      'pointer': 'url(link.cur), pointer',
+    },
     extend: {
       fontFamily: {
-        'mono': ['IBM Plex Mono', ...defaultTheme.fontFamily.mono],
+        'mono': ['Space Grotesk', ...defaultTheme.fontFamily.mono],
 			},
     },
   },
