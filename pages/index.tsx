@@ -1,4 +1,4 @@
-import { IconArrowDown, IconBrandGithub, IconBrandLinkedin, IconFile } from '@tabler/icons-react'
+import { IconArrowDown } from '@tabler/icons-react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
@@ -11,16 +11,21 @@ const Home: NextPage = () => {
 				content="🙋🏻‍♂️ hey there, i am aaryan. i am a brand strategist specializing in brand design &amp; experience."/>
 			</Head>
 			<div className="select-none font-mono">
-				<div className="w-full px-2 py-2 flex justify-center absolute top-10 !cursor-pointer">
-					<div className="px-4 py-2 text-gray-300 hover:text-black hover:bg-gray-200 transition duration-300 rounded-full">
+				<div className="w-full px-2 py-2 flex justify-center absolute top-10">
+					<div className="!cursor-pointer px-4 py-2 text-gray-300 hover:text-black hover:bg-gray-200 transition duration-300 rounded-full">
 						Home
 					</div>
-					<div className="px-4 py-2 text-gray-300 hover:text-black hover:bg-gray-200 transition duration-300 rounded-full">
+					<div className="!cursor-pointer px-4 py-2 text-gray-300 hover:text-black hover:bg-gray-200 transition duration-300 rounded-full">
 						About Me
 					</div>
-					<div className="px-4 py-2 text-gray-300 hover:text-black hover:bg-gray-200 transition duration-300 rounded-full">
-						Contact
+					<div className="!cursor-pointer px-4 py-2 text-gray-300 hover:text-black hover:bg-gray-200 transition duration-300 rounded-full">
+						Blog
 					</div>
+				</div>
+				<div className="absolute top-14 right-20">
+					<a href="/" className="!cursor-pointer px-4 py-2 text-white hover:text-black hover:bg-gray-200 transition duration-300 rounded-full">
+						Khufiya Kamra?
+					</a>
 				</div>
 				<div id="home" className="h-screen flex items-center px-36">
 					<div className="text-5xl max-w-5xl text-gray-300">
@@ -33,20 +38,35 @@ const Home: NextPage = () => {
 						</a>
 					</div>
 				</div>
-				<div id="about" className="h-screen flex gap-12 px-36 py-28">
-					<div className="h-full w-1/3 bg-gray-50 rounded-3xl">
-
+				<div id="about" className="h-screen lg:flex gap-12 px-36 py-28">
+					<div className="hover:scale-[1.01] transition duration-300 relative h-full lg:w-1/3 bg-gray-50 rounded-3xl p-12">
+						<div className="absolute -top-5 text-3xl">
+							👨🏻‍💻
+						</div>
+						<div className="text-2xl leading-6">
+							I like to do everything.<br />
+							<span className="text-sm text-gray-400">(believe it or not)</span>
+						</div>
+						<div className="text-lg">
+							
+						</div>
 					</div>
 					<div className="flex flex-col gap-12 w-1/3">
-						<div className="h-1/2 bg-gray-50 rounded-3xl w-full">
-
+						<div className="hover:scale-[1.01] transition duration-300 relative h-1/2 bg-gray-50 rounded-3xl w-full p-12">
+							<div className="absolute -top-5 text-3xl">
+								🏠
+							</div>
 						</div>
-						<div className="h-1/2 bg-gray-50 rounded-3xl w-full">
-
+						<div className="hover:scale-[1.01] transition duration-300 relative h-1/2 bg-gray-50 rounded-3xl w-full p-12">
+							<div className="absolute -top-5 text-3xl">
+								🥁
+							</div>
 						</div>
 					</div>
-					<div className="h-full w-1/3 bg-gray-50 rounded-3xl">
-
+					<div className="hover:scale-[1.01] transition duration-300 relative h-full w-1/3 bg-gray-50 rounded-3xl p-12">
+						<div className="absolute -top-5 text-3xl">
+							🏢
+						</div>
 					</div>
 				</div>
 
