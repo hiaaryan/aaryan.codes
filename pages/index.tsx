@@ -23,11 +23,11 @@ const Home: NextPage = () => {
 					</div>
 				</div>
 				<div className="absolute top-14 right-20">
-					<a href="/" className="!cursor-pointer px-4 py-2 text-white hover:text-black hover:bg-gray-200 transition duration-300 rounded-full">
+					<a href="#" className="!cursor-pointer px-4 py-2 text-white hover:text-black hover:bg-gray-200 transition duration-300 rounded-full">
 						Khufiya Kamra?
 					</a>
 				</div>
-				<div id="home" className="h-screen flex items-center px-36">
+				<div id="home" className="h-screen flex items-center px-16 lg:px-36">
 					<div className="text-5xl max-w-5xl text-gray-300">
 						Hello, I am <span className="text-black">Aaryan</span>. <br />I create wonderful brand experiences.
 					</div>
