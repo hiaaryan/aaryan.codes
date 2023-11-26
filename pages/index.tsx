@@ -38,10 +38,10 @@ const Home: NextPage = () => {
 						<video className="object-cover object-right lg:object-center h-full w-full rounded-3xl grayscale" autoPlay muted playsInline>
 							<source src="/video[1].mov" type="video/mp4" />
 						</video>
-						<div className="h-full absolute top-0 left-8 lg:left-20">
-							<div className="h-full flex items-center">
-								<div className="text-base font-medium lg:font-normal lg:text-2xl lg:max-w-5xl text-white drop-shadow-2xl">
-									Hello, I am Aaryan. <br />I make creative brand experiences.
+						<div className="h-full absolute top-0 mx-8 lg:mx-20">
+							<div className="h-full flex items-start lg:items-center">
+								<div className="mt-8 lg:mt-0 text-sm font-medium lg:font-normal lg:text-2xl lg:max-w-5xl text-white drop-shadow-2xl">
+									Hello, I am Aaryan. <br />I bring brands to life, creatively.
 								</div>
 							</div>
 						</div>
