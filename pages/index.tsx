@@ -1,4 +1,4 @@
-import { IconArrowDown } from '@tabler/icons-react'
+import { IconArrowDown, IconColorFilter, IconHeart } from '@tabler/icons-react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
@@ -11,7 +11,13 @@ const Home: NextPage = () => {
 				content="🙋🏻‍♂️ hey there, i am aaryan. i am a brand strategist specializing in brand design &amp; experience."/>
 			</Head>
 			<div className="select-none font-mono">
-				<div className="w-full px-2 py-2 flex justify-center absolute top-10">
+				{/* <div className="text-gray-300 absolute top-28 left-36">
+					<a href="#about" className="flex !cursor-pointer transition duration-300 hover:text-black hover:-translate-y-1">
+						<IconColorFilter className="mr-2" size={21}/>
+						Aaryan Kapoor // Creative Brand Designer
+					</a>
+				</div> */}
+				{/* <div className="w-full px-36 py-2 flex text-sm lg:text-base justify-start absolute top-10">
 					<div className="!cursor-pointer px-4 py-2 text-gray-300 hover:text-black hover:bg-gray-200 transition duration-300 rounded-full">
 						Home
 					</div>
@@ -22,34 +28,36 @@ const Home: NextPage = () => {
 						Blog
 					</div>
 				</div>
-				<div className="absolute top-14 right-20">
+				<div className="hidden lg:block absolute top-14 right-36">
 					<a href="#" className="!cursor-pointer px-4 py-2 text-white hover:text-black hover:bg-gray-200 transition duration-300 rounded-full">
 						Khufiya Kamra?
 					</a>
-				</div>
-				<div id="home" className="h-screen flex items-center px-16 lg:px-36">
-					<div className="text-5xl max-w-5xl text-gray-300">
-						Hello, I am <span className="text-black">Aaryan</span>. <br />I create wonderful brand experiences.
+				</div> */}
+				<div id="home" className="h-screen flex items-center px-10 lg:px-36 overflow-hidden">
+					<div className="relative w-full h-2/4">
+						<video className="object-cover object-right lg:object-center h-full w-full rounded-3xl grayscale" autoPlay muted playsInline>
+							<source src="/video[1].mov" type="video/mp4" />
+						</video>
+						<div className="h-full absolute top-0 left-8 lg:left-20">
+							<div className="h-full flex items-center">
+								<div className="text-md lg:text-2xl max-w-5xl text-white drop-shadow-2xl">
+									Hello, I am Aaryan. <br />I make creative brand experiences.
+								</div>
+							</div>
+						</div>
 					</div>
-					<div className="text-gray-300 absolute bottom-28 left-36">
+					{/* <div className="text-gray-300 absolute bottom-28 left-36">
 						<a href="#about" className="flex !cursor-pointer transition duration-300 hover:text-black hover:-translate-y-1">
 							<IconArrowDown className="mr-2" size={21}/>
 							Scroll for more information
 						</a>
-					</div>
+					</div> */}
 				</div>
-				<div id="about" className="h-screen lg:flex gap-12 px-36 py-28">
-					<div className="hover:scale-[1.01] transition duration-300 relative h-full lg:w-1/3 bg-gray-50 rounded-3xl p-12">
-						<div className="absolute -top-5 text-3xl">
-							👨🏻‍💻
-						</div>
-						<div className="text-2xl leading-6">
-							I like to do everything.<br />
-							<span className="text-sm text-gray-400">(believe it or not)</span>
-						</div>
-						<div className="text-lg">
-							
-						</div>
+				{/* <div id="about" className="h-screen lg:flex gap-12 px-36 py-28">
+					<div className="h-full lg:w-1/3 bg-gray-50 rounded-3xl">
+						<video className="object-cover h-full w-full rounded-3xl" autoPlay muted loop playsInline>
+							<source src="/video.mp4" type="video/mp4" />
+						</video>
 					</div>
 					<div className="flex flex-col gap-12 w-1/3">
 						<div className="hover:scale-[1.01] transition duration-300 relative h-1/2 bg-gray-50 rounded-3xl w-full p-12">
@@ -68,7 +76,7 @@ const Home: NextPage = () => {
 							🏢
 						</div>
 					</div>
-				</div>
+				</div> */}
 
 				{/*<div className="h-full z-50">*/}
 				{/*	<div className="w-full flex-col text-left">*/}
