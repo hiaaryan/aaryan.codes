@@ -35,12 +35,12 @@ const Home: NextPage = () => {
 				</div> */}
 				<div id="home" className="h-screen flex items-center px-10 lg:px-36 overflow-hidden">
 					<div className="relative w-full h-2/4">
-						<video className="object-cover object-right lg:object-center h-full w-full rounded-3xl grayscale" autoPlay muted playsInline>
+						<video className="object-cover object-right lg:object-center h-full w-full rounded-3xl brightness-75 grayscale" autoPlay muted playsInline>
 							<source src="/video[1].mov" type="video/mp4" />
 						</video>
 						<div className="h-full absolute top-0 mx-8 lg:mx-20">
 							<div className="h-full flex items-end lg:items-center">
-								<div className="mb-8 lg:mb-0 text-sm font-medium lg:font-normal lg:text-2xl lg:max-w-5xl text-white drop-shadow-2xl">
+								<div className="mb-8 lg:mb-0 text-sm font-medium lg:font-normal lg:text-2xl lg:max-w-5xl text-white">
 									Hello, I am Aaryan. <br />I bring brands to life, creatively.
 								</div>
 							</div>
