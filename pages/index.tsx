@@ -40,7 +40,7 @@ const Home: NextPage = () => {
 						</video>
 						<div className="h-full absolute top-0 left-8 lg:left-20">
 							<div className="h-full flex items-center">
-								<div className="text-md lg:text-2xl max-w-5xl text-white drop-shadow-2xl">
+								<div className="text-base font-medium lg:font-normal lg:text-2xl lg:max-w-5xl text-white drop-shadow-2xl">
 									Hello, I am Aaryan. <br />I make creative brand experiences.
 								</div>
 							</div>
