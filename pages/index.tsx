@@ -32,19 +32,19 @@ const Home: NextPage = () => {
 				</div>
 				<div id="work" className="flex flex-col gap-4 p-4 bg-white select-none font-mono h-auto lg:min-h-screen w-auto">
 					<Link href="/projects/athletico" className="relative w-full h-full hover:cursor-pointer">
-						<img src="https://blurpyx.b-cdn.net/athletico/Frame%201.png" className="w-full h-full object-center object-cover" />
+						<img src="/athletico/Frame 1.png" className="w-full h-full object-center object-cover" />
 					</Link>
 					<Link href="/projects/beep-beep" className="relative w-full h-full hover:cursor-pointer">
 						<video className="hidden lg:block w-full h-full object-center object-cover" autoPlay muted playsInline loop>
-							<source src="https://blurpyx.b-cdn.net/beep-beep/Frame%201.mp4" type="video/mp4" />
+							<source src="/beep-beep/Frame 1.mp4" type="video/mp4" />
 						</video>
-						<img src="https://blurpyx.b-cdn.net/beep-beep/Frame%201.png" className="block lg:hidden w-full h-full object-center object-cover" />
+						<img src="/beep-beep/Frame 1.png" className="block lg:hidden w-full h-full object-center object-cover" />
 					</Link>
 					<Link href="/projects/flotek" className="relative w-full h-full hover:cursor-pointer">
-						<img src="https://blurpyx.b-cdn.net/flotek/Frame%208.png" className="w-full h-full object-center object-cover" />
+						<img src="/flotek/Frame 8.png" className="w-full h-full object-center object-cover" />
 					</Link>
 					<Link href="/projects/tbim" className="relative w-full h-full hover:cursor-pointer">
-						<img src="https://blurpyx.b-cdn.net/tbim/Frame%204.png" className="w-full h-full object-center object-cover" />
+						<img src="/tbim/Frame 4.png" className="w-full h-full object-center object-cover" />
 					</Link>
 				</div>
 			</div>

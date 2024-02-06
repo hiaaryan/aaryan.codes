@@ -19,49 +19,49 @@ const FLOTEK: NextPage = () => {
 				</Link>
                 <div className="p-4 flex flex-col gap-4 bg-white select-none font-mono lg:min-h-screen w-auto">
 					<div className="relative w-full h-full">
-                        <img src="https://blurpyx.b-cdn.net/flotek/Frame%201.png" className="w-full h-full" />
+                        <img src="/flotek/Frame 1.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/flotek/Frame%202.png" className="w-full h-full" />
+						<img src="/flotek/Frame 2.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/flotek/Frame%203.png" className="w-full h-full" />
+						<img src="/flotek/Frame 3.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/flotek/Frame%204.png" className="w-full h-full" />
+						<img src="/flotek/Frame 4.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/flotek/Frame%205.png" className="w-full h-full" />
+						<img src="/flotek/Frame 5.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/flotek/Frame%206.png" className="w-full h-full" />
+						<img src="/flotek/Frame 6.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/flotek/Frame%207.png" className="w-full h-full" />
+						<img src="/flotek/Frame 7.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/flotek/Frame%208.png" className="w-full h-full" />
+						<img src="/flotek/Frame 8.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/flotek/Frame%209.png" className="w-full h-full" />
+						<img src="/flotek/Frame 9.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-                        <img src="https://blurpyx.b-cdn.net/flotek/Frame%2010.png" className="w-full h-full" />
+                        <img src="/flotek/Frame 10.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/flotek/Frame%2011.png" className="w-full h-full" />
+						<img src="/flotek/Frame 11.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/flotek/Frame%2012.png" className="w-full h-full" />
+						<img src="/flotek/Frame 12.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/flotek/Frame%2013.png" className="w-full h-full" />
+						<img src="/flotek/Frame 13.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/flotek/Frame%2014.png" className="w-full h-full" />
+						<img src="/flotek/Frame 14.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/flotek/Frame%2015.png" className="w-full h-full" />
+						<img src="/flotek/Frame 15.png" className="w-full h-full" />
 					</div>
 				</div>
 			</div>

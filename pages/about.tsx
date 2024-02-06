@@ -17,12 +17,14 @@ const About: NextPage = () => {
 				<Link href="/">
 				    <img src="/ak.svg" className="cursor-pointer z-10 text-white mix-blend-difference fixed top-0 right-0 m-4 h-6 lg:h-9" />
 				</Link>
-                <div className="flex flex-col gap-4 p-4 bg-white select-none font-mono h-auto lg:min-h-screen w-auto">
+                <div className="flex flex-col lg:flex-row mt-20 gap-4 p-4 bg-white select-none font-mono h-auto lg:min-h-screen w-auto">
 					<div className="relative lg:w-1/2 h-full">
 						<img src="/aaryan.jpeg" className="w-full h-full object-center object-cover" />
 					</div>
                     <div className="relative lg:w-1/2 h-full">
-						<img src="/aaryan.jpeg" className="w-full h-full object-center object-cover" />
+						<div className="text-base lg:text-lg">
+							hello. I am aaryan kapoor.
+						</div>
 					</div>
 				</div>
 			</div>

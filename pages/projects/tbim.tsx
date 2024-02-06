@@ -20,39 +20,39 @@ const TBIM: NextPage = () => {
                 <div className="p-4 flex flex-col gap-4 bg-white select-none font-mono lg:min-h-screen w-auto">
 					<div className="relative w-full h-full">
 						<video className="hidden lg:block w-full h-full object-center object-cover" autoPlay muted playsInline loop>
-							<source src="https://blurpyx.b-cdn.net/tbim/Frame%201.mp4" type="video/mp4" />
+							<source src="/tbim/Frame 1.mp4" type="video/mp4" />
 						</video>
-						<img src="https://blurpyx.b-cdn.net/tbim/Frame%201.png" className="block lg:hidden w-full h-full object-center object-cover" />
+						<img src="/tbim/Frame 1.png" className="block lg:hidden w-full h-full object-center object-cover" />
 					</div>
 					<div className="relative w-full h-full">
 						<video className="hidden lg:block w-full h-full object-center object-cover" autoPlay muted playsInline loop>
-							<source src="https://blurpyx.b-cdn.net/tbim/Frame%202.mp4" type="video/mp4" />
+							<source src="/tbim/Frame 2.mp4" type="video/mp4" />
 						</video>
-						<img src="https://blurpyx.b-cdn.net/tbim/Frame%202.png" className="block lg:hidden w-full h-full object-center object-cover" />
+						<img src="/tbim/Frame 2.png" className="block lg:hidden w-full h-full object-center object-cover" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/tbim/Frame%203.png" className="w-full h-full" />
+						<img src="/tbim/Frame 3.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/tbim/Frame%204.png" className="w-full h-full" />
+						<img src="/tbim/Frame 4.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/tbim/Frame%205.png" className="w-full h-full" />
+						<img src="/tbim/Frame 5.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/tbim/Frame%206.png" className="w-full h-full" />
+						<img src="/tbim/Frame 6.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/tbim/Frame%207.png" className="w-full h-full" />
+						<img src="/tbim/Frame 7.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/tbim/Frame%208.png" className="w-full h-full" />
+						<img src="/tbim/Frame 8.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/tbim/Frame%209.png" className="w-full h-full" />
+						<img src="/tbim/Frame 9.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-                        <img src="https://blurpyx.b-cdn.net/tbim/Frame%2010.png" className="w-full h-full" />
+                        <img src="/tbim/Frame 10.png" className="w-full h-full" />
 					</div>
 				</div>
 			</div>

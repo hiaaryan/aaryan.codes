@@ -20,54 +20,54 @@ const BeepBeep: NextPage = () => {
                 <div className="p-4 flex flex-col gap-4 bg-white select-none font-mono lg:min-h-screen w-auto">
 					<div className="relative w-full h-full">
 						<video className="hidden lg:block w-full h-full object-center object-cover" autoPlay muted playsInline loop>
-							<source src="https://blurpyx.b-cdn.net/beep-beep/Frame%201.mp4" type="video/mp4" />
+							<source src="/beep-beep/Frame 1.mp4" type="video/mp4" />
 						</video>
-						<img src="https://blurpyx.b-cdn.net/beep-beep/Frame%201.png" className="block lg:hidden w-full h-full object-center object-cover" />
+						<img src="/beep-beep/Frame 1.png" className="block lg:hidden w-full h-full object-center object-cover" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/beep-beep/Frame%202.png" className="w-full h-full" />
+						<img src="/beep-beep/Frame 2.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/beep-beep/Frame%203.png" className="w-full h-full" />
+						<img src="/beep-beep/Frame 3.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/beep-beep/Frame%204.png" className="w-full h-full" />
+						<img src="/beep-beep/Frame 4.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/beep-beep/Frame%205.png" className="w-full h-full" />
+						<img src="/beep-beep/Frame 5.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/beep-beep/Frame%206.png" className="w-full h-full" />
+						<img src="/beep-beep/Frame 6.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/beep-beep/Frame%207.png" className="w-full h-full" />
+						<img src="/beep-beep/Frame 7.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/beep-beep/Frame%208.png" className="w-full h-full" />
+						<img src="/beep-beep/Frame 8.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/beep-beep/Frame%209.png" className="w-full h-full" />
+						<img src="/beep-beep/Frame 9.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
 						<video className="hidden lg:block w-full h-full object-center object-cover" autoPlay muted playsInline loop>
-							<source src="https://blurpyx.b-cdn.net/beep-beep/Frame%2010.mp4" type="video/mp4" />
+							<source src="/beep-beep/Frame 10.mp4" type="video/mp4" />
 						</video>
-						<img src="https://blurpyx.b-cdn.net/beep-beep/Frame%2010.png" className="block lg:hidden w-full h-full object-center object-cover" />
+						<img src="/beep-beep/Frame 10.png" className="block lg:hidden w-full h-full object-center object-cover" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/beep-beep/Frame%2011.png" className="w-full h-full" />
+						<img src="/beep-beep/Frame 11.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/beep-beep/Frame%2012.png" className="w-full h-full" />
+						<img src="/beep-beep/Frame 12.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/beep-beep/Frame%2013.png" className="w-full h-full" />
+						<img src="/beep-beep/Frame 13.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/beep-beep/Frame%2014.png" className="w-full h-full" />
+						<img src="/beep-beep/Frame 14.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="https://blurpyx.b-cdn.net/beep-beep/Frame%2015.png" className="w-full h-full" />
+						<img src="/beep-beep/Frame 15.png" className="w-full h-full" />
 					</div>
 				</div>
 			</div>
