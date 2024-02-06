@@ -12,56 +12,59 @@ const athletico: NextPage = () => {
 			</Head>
 			<div className="select-none font-mono">
 				<Link href="/">
-				    <img src="/arrow.svg" className="cursor-pointer z-10 text-white mix-blend-difference fixed top-0 left-0 m-10 h-9 transform rotate-180 ml-12" />
+				    <img src="/arrow.svg" className="cursor-pointer z-10 text-white mix-blend-difference fixed top-0 left-0 m-4 h-6 lg:h-9 transform rotate-180" />
 				</Link>
-                <div className="p-2 lg:p-36 flex flex-col gap-2 bg-black select-none font-mono lg:min-h-screen w-auto">
+				<Link href="/">
+				    <img src="/ak.svg" className="cursor-pointer z-10 text-white mix-blend-difference fixed top-0 right-0 m-4 h-6 lg:h-9" />
+				</Link>
+                <div className="p-4 flex flex-col gap-4 bg-white select-none font-mono lg:min-h-screen w-auto">
 					<div className="relative w-full h-full">
-                        <img src="/athletico/Frame 1.png" className="w-full h-full" />
+                        <img src="https://blurpyx.b-cdn.net/athletico/Frame%201.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="/athletico/Frame 2.png" className="w-full h-full" />
+						<img src="https://blurpyx.b-cdn.net/athletico/Frame%202.png" className="w-full h-full" />
 					</div>
                     <div className="relative w-full h-full">
-						<img src="/athletico/Moodboard.png" className="w-full h-full" />
+						<img src="https://blurpyx.b-cdn.net/athletico/Moodboard.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="/athletico/Frame 3.png" className="w-full h-full" />
+						<img src="https://blurpyx.b-cdn.net/athletico/Frame%203.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="/athletico/Frame 4.png" className="w-full h-full" />
+						<img src="https://blurpyx.b-cdn.net/athletico/Frame%204.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="/athletico/Frame 5.png" className="w-full h-full" />
+						<img src="https://blurpyx.b-cdn.net/athletico/Frame%205.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="/athletico/Frame 6.png" className="w-full h-full" />
+						<img src="https://blurpyx.b-cdn.net/athletico/Frame%206.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="/athletico/Frame 7.png" className="w-full h-full" />
+						<img src="https://blurpyx.b-cdn.net/athletico/Frame%207.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="/athletico/Frame 8.png" className="w-full h-full" />
+						<img src="https://blurpyx.b-cdn.net/athletico/Frame%208.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="/athletico/Frame 9.png" className="w-full h-full" />
+						<img src="https://blurpyx.b-cdn.net/athletico/Frame%209.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-                        <img src="/athletico/Frame 10.png" className="w-full h-full" />
+                        <img src="https://blurpyx.b-cdn.net/athletico/Frame%2010.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="/athletico/Frame 11.png" className="w-full h-full" />
+						<img src="https://blurpyx.b-cdn.net/athletico/Frame%2011.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="/athletico/Frame 12.png" className="w-full h-full" />
+						<img src="https://blurpyx.b-cdn.net/athletico/Frame%2012.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="/athletico/Frame 13.png" className="w-full h-full" />
+						<img src="https://blurpyx.b-cdn.net/athletico/Frame%2013.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="/athletico/Frame 14.png" className="w-full h-full" />
+						<img src="https://blurpyx.b-cdn.net/athletico/Frame%2014.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="/athletico/Frame 15.png" className="w-full h-full" />
+						<img src="https://blurpyx.b-cdn.net/athletico/Frame%2015.png" className="w-full h-full" />
 					</div>
 				</div>
 			</div>
