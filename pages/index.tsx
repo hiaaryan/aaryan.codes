@@ -12,19 +12,24 @@ const Home: NextPage = () => {
 			</Head>
 			<div className="select-none font-mono">
 				<Link href="/about">
-				    <img src="/ak.svg" className="cursor-pointer z-10 text-white mix-blend-difference fixed top-0 left-0 m-4 h-6 lg:h-9" />
+				    <img src="/ak.svg" className="!cursor-pointer z-10 text-white mix-blend-difference fixed top-0 left-0 m-4 h-6 lg:h-9" />
 				</Link>
 				<div className="bg-white select-none font-mono h-screen w-auto">
-					<div className="relative w-full h-full">
-						<div className="absolute flex gap-8 bottom-0 right-0 p-4 lg:mr-3 text-black">
+					<div className="relative flex justify-right items-end w-full h-full">
+						<div>
+							<video className="absolute top-0 right-0 h-full w-3/4" autoPlay muted playsInline loop>
+								<source src="/video.mp4" type="video/mp4" />
+							</video>
+						</div>
+						<div className="z-10 absolute flex gap-8 bottom-0 right-0 p-4 lg:mr-3 bg-white text-black">
 							<div className="text-base lg:text-lg">
-								<Link href="/#work" className="flex items-center">
+								<Link href="/#work" className="!cursor-pointer flex items-center">
 									<img src="/arrow.svg" className="h-3 mr-2 mix-blend-difference" /> work
 								</Link>
 							</div>
 							<div className="text-base lg:text-lg">
-								<Link href="/about" className="flex items-center">
-									<img src="/arrow.svg" className="h-3 mr-2 mix-blend-difference" /> contact
+								<Link href="/about" className="!cursor-pointer flex items-center">
+									<img src="/arrow.svg" className="h-3 mr-2 mix-blend-difference" /> about
 								</Link>
 							</div>
 						</div>

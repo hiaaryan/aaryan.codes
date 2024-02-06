@@ -12,10 +12,10 @@ const About: NextPage = () => {
 			</Head>
 			<div className="select-none font-mono">
 				<Link href="/">
-				    <img src="/arrow.svg" className="cursor-pointer z-10 text-white mix-blend-difference fixed top-0 left-0 m-4 h-6 lg:h-9 transform rotate-180" />
+				    <img src="/arrow.svg" className="!cursor-pointer z-10 text-white mix-blend-difference fixed top-0 left-0 m-4 h-6 lg:h-9 transform rotate-180" />
 				</Link>
 				<Link href="/">
-				    <img src="/ak.svg" className="cursor-pointer z-10 text-white mix-blend-difference fixed top-0 right-0 m-4 h-6 lg:h-9" />
+				    <img src="/ak.svg" className="!cursor-pointer z-10 text-white mix-blend-difference fixed top-0 right-0 m-4 h-6 lg:h-9" />
 				</Link>
                 <div className="flex flex-col lg:flex-row mt-20 gap-4 p-4 bg-white select-none font-mono h-auto lg:min-h-screen w-auto">
 					<div className="relative lg:w-1/2 h-full">
