@@ -21,7 +21,7 @@ const Home: NextPage = () => {
 								<source src="/video.mp4" type="video/mp4" />
 							</video>
 						</div>
-						<div className="absolute flex gap-8 bottom-20 lg:bottom-0 right-0 p-4 lg:mr-3 bg-white text-black">
+						<div className="absolute flex gap-8 bottom-0 right-0 p-4 lg:mr-3 bg-white text-black">
 							<div className="text-sm lg:text-lg">
 								<Link href="/#work" className="!cursor-pointer flex items-center">
 									<img src="/arrow.svg" className="h-3 mr-2 mix-blend-difference" /> work
