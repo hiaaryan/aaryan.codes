@@ -36,20 +36,17 @@ const Home: NextPage = () => {
 					</div>
 				</div>
 				<div id="work" className="flex flex-col gap-4 p-4 bg-white select-none font-mono h-auto lg:min-h-screen w-auto">
-					<Link href="/projects/athletico" className="relative w-full h-full hover:cursor-pointer">
-						<img src="/athletico/Frame 1.png" className="w-full h-full object-center object-cover" />
+					<Link href="/projects/athletico" className="!cursor-pointer relative w-full h-full hover:cursor-pointer">
+						<img src="/athletico/Frame 8.png" className="w-full h-full object-center object-cover" />
 					</Link>
-					<Link href="/projects/beep-beep" className="relative w-full h-full hover:cursor-pointer">
-						<video className="hidden lg:block w-full h-full object-center object-cover" autoPlay muted playsInline loop>
-							<source src="/beep-beep/Frame 1.mp4" type="video/mp4" />
-						</video>
-						<img src="/beep-beep/Frame 1.png" className="block lg:hidden w-full h-full object-center object-cover" />
+					<Link href="/projects/beep-beep" className="!cursor-pointer relative w-full h-full hover:cursor-pointer">
+						<img src="/beep-beep/Frame 12.png" className="w-full h-full object-center object-cover" />
 					</Link>
-					<Link href="/projects/flotek" className="relative w-full h-full hover:cursor-pointer">
-						<img src="/flotek/Frame 8.png" className="w-full h-full object-center object-cover" />
+					<Link href="/projects/flotek" className="!cursor-pointer relative w-full h-full hover:cursor-pointer">
+						<img src="/flotek/Frame 1.png" className="w-full h-full object-center object-cover" />
 					</Link>
-					<Link href="/projects/tbim" className="relative w-full h-full hover:cursor-pointer">
-						<img src="/tbim/Frame 4.png" className="w-full h-full object-center object-cover" />
+					<Link href="/projects/tbim" className="!cursor-pointer relative w-full h-full hover:cursor-pointer">
+						<img src="/tbim/Frame 5.png" className="w-full h-full object-center object-cover" />
 					</Link>
 				</div>
 			</div>
