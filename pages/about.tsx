@@ -24,7 +24,7 @@ const About: NextPage = () => {
 					</div>
 					<div className="flex flex-col lg:justify-end text-sm lg:text-base lg:w-1/2 h-full">
 						<div className="text-justify mt-4">
-							Hello there! I am Aaryan. Aaryan Kapoor. I am a and a creative brand 'artisan' and an adult fan of LEGO (AFOL). I always like to build and fiddle with things and that&#39;s what led me to the world of design.
+							Hello there! I am Aaryan. Aaryan Kapoor. I am a and a creative brand &lsquo;artisan&lsquo; and an adult fan of LEGO (AFOL). I always like to build and fiddle with things and that&#39;s what led me to the world of design.
 							<br /><br />
 							I strongly believe that design has the power to change everything. This is why I have a true passion for crafting emotive (& sometimes crazy) brand experiences that forge powerful connections with target audiences. 
 							I leverage exceptional design skills across platforms like Adobe Illustrator, Photoshop, After Effects and Figma to develop visually compelling brand assets. 
