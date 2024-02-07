@@ -23,8 +23,8 @@ const About: NextPage = () => {
 						<img src="/aaryan.jpeg" className="w-full h-auto object-center object-cover" />
 					</div>
 					<div className="flex flex-col lg:justify-end text-sm lg:text-base lg:w-1/2 h-full">
-						<div className="text-justify">
-							Hello there! I am Aaryan. Aaryan Kapoor. I am an AFOL (Adult Fan of LEGO) and a thriving Brand Designer. I always like to build and fiddle with things and that's what led me to the world of design.
+						<div className="text-justify mt-4">
+							Hello there! I am Aaryan. Aaryan Kapoor. I am an AFOL (Adult Fan of LEGO) and a thriving Brand Designer. I always like to build and fiddle with things and that&#39;s what led me to the world of design.
 							<br /><br />
 							I strongly believe that design has the power to change everything. This is why I have a true passion for crafting emotive (& sometimes crazy) brand experiences that forge powerful connections with target audiences. 
 							I leverage exceptional design skills across platforms like Adobe Illustrator, Photoshop, After Effects and Figma to develop visually compelling brand assets. 
@@ -33,8 +33,8 @@ const About: NextPage = () => {
 							I love collaborating with risk takiing brands and startups to create unique and memorable brand experiences. 
 							I am currently on the lookout for new internship opportunities to work with brands that are looking to make a difference in the world.
 						</div>
-						<div className="flex gap-4 mt-5 mb-8 lg:mb-0">
-							<Link href="https://www.linkedin.com/in/hiaaryan/" target='_blank' className="flex items-center">
+						<div className="flex gap-4 mt-5 mb-8 lg:mb-0 font-medium">
+							<Link href="https://www.linkedin.com/in/hiaaryan/" target='_blank' className="!cursor-pointer flex items-center">
 								<IconBrandLinkedin size={30} stroke={2} className="-ml-1.5 mr-2" /> Get in Touch
 							</Link>
 						</div>
