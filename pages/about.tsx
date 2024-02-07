@@ -9,7 +9,7 @@ const About: NextPage = () => {
 			<Head>
 				<title>aaryan kapoor // about</title>
 				<meta name="description"
-				content="🙋🏻‍♂️ hey there, i am aaryan. i am a brand strategist specializing in brand design &amp; experience."/>
+				content="🙋🏻‍♂️ hey there, i am aaryan. i am a creative brand artisan specializing in design &amp; experience." />
 			</Head>
 			<div className="select-none font-mono">
 				<Link href="/">
@@ -30,7 +30,7 @@ const About: NextPage = () => {
 							I leverage exceptional design skills across platforms like Adobe Illustrator, Photoshop, After Effects and Figma to develop visually compelling brand assets. 
 							I pair this with strong technical expertise in frontend development using tools like CSS, TypeScript, JavaScript, and ReactJS.
 							<br /><br />
-							I love collaborating with risk takiing brands and startups to create unique and memorable brand experiences. 
+							I love collaborating with risk taking brands and agencies to create unique and memorable brand experiences. 
 							I am currently on the lookout for new internship opportunities to work with brands that are looking to make a difference in the world.
 						</div>
 						<div className="flex gap-4 mt-5 mb-8 lg:mb-0 font-medium">

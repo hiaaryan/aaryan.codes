@@ -6,9 +6,9 @@ const TBIM: NextPage = () => {
 	return (
 		<>
 			<Head>
-				<title>aaryan kapoor // about</title>
+				<title>aaryan kapoor // tbim</title>
 				<meta name="description"
-				content="🙋🏻‍♂️ hey there, i am aaryan. i am a brand strategist specializing in brand design &amp; experience."/>
+				content="🙋🏻‍♂️ hey there, i am aaryan. i am a creative brand artisan specializing in design &amp; experience." />
 			</Head>
 			<div className="select-none font-mono">
 				<Link href="/">

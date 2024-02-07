@@ -6,9 +6,9 @@ const Home: NextPage = () => {
 	return (
 		<>
 			<Head>
-				<title>aaryan kapoor // creative brand strategist</title>
+				<title>aaryan kapoor // creative brand artisan</title>
 				<meta name="description"
-				content="🙋🏻‍♂️ hey there, i am aaryan. i am a brand strategist specializing in brand design &amp; experience."/>
+				content="🙋🏻‍♂️ hey there, i am aaryan. i am a creative brand artisan specializing in design &amp; experience." />
 			</Head>
 			<div className="select-none font-mono">
 				<Link href="/about">
