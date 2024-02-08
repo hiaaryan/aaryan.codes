@@ -43,10 +43,10 @@ const Home: NextPage = () => {
 						<img src="/beep-beep/Frame 12.png" className="w-full h-full object-center object-cover" />
 					</Link>
 					<Link href="/projects/flotek" className="!cursor-pointer relative w-full h-full hover:cursor-pointer">
-						<img src="/flotek/Frame 1.png" className="w-full h-full object-center object-cover" />
+						<img src="/flotek/Frame 3.png" className="w-full h-full object-center object-cover" />
 					</Link>
 					<Link href="/projects/tbim" className="!cursor-pointer relative w-full h-full hover:cursor-pointer">
-						<img src="/tbim/Frame 5.png" className="w-full h-full object-center object-cover" />
+						<img src="/tbim/Frame 4.png" className="w-full h-full object-center object-cover" />
 					</Link>
 				</div>
 			</div>
