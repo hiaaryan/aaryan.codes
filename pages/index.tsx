@@ -17,7 +17,7 @@ const Home: NextPage = () => {
 				<div className="bg-white select-none font-mono h-screen w-auto">
 					<div className="relative flex justify-right items-end w-full h-full">
 						<div>
-							<video className="absolute top-0 right-0 h-full w-5/6 xl:3/5 -mt-20 lg:-mt-10" autoPlay muted playsInline loop>
+							<video className="absolute top-0 right-0 h-full w-5/6 lg:4/6 xl:3/6 -mt-20 lg:-mt-10" autoPlay muted playsInline loop>
 								<source src="/video.mp4" type="video/mp4" />
 							</video>
 						</div>
