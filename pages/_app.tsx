@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         const LocomotiveScroll = (await import('locomotive-scroll')).default
         const locomotiveScroll = new LocomotiveScroll({
           lenisOptions: {
-            lerp: 0.10,
+            lerp: 0.05,
           }
         })
       }

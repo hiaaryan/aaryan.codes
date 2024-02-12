@@ -52,9 +52,6 @@ const athletico: NextPage = () => {
                         <img src="/athletico/Frame 10.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
-						<img src="/athletico/Frame 11.png" className="w-full h-full" />
-					</div>
-					<div className="relative w-full h-full">
 						<img src="/athletico/Frame 12.png" className="w-full h-full" />
 					</div>
 					<div className="relative w-full h-full">
