@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 			</Head>
 			<div className="select-none font-mono bg-white">
 				<Link href="/about" className="z-30 flex items-start mix-blend-difference fixed top-0 left-0">
-					<img src="/ak.svg" className="!cursor-pointer z-10 mix-blend-difference m-4 h-8 lg:h-14" />
+					<img src="/ak.svg" className="!cursor-pointer z-10 mix-blend-difference m-4 h-6 lg:h-9" />
 				</Link>
 				<div className="z-30 absolute flex gap-8 bottom-0 right-0 p-4 lg:mr-3 bg-white text-black">
 					<div className="text-sm lg:text-lg">
