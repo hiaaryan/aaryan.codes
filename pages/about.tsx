@@ -41,7 +41,7 @@ const About: NextPage = () => {
 								<Link href="https://www.linkedin.com/in/hiaaryan/" target='_blank' className="!cursor-pointer flex items-center">
 									<IconBrandLinkedin size={25} stroke={2} className="-ml-1.5 mr-2" /> LinkedIn
 								</Link>
-								<Link href="https://www.linkedin.com/in/hiaaryan/" target='_blank' className="!cursor-pointer flex items-center">
+								<Link href="/resume.pdf" target='_blank' className="!cursor-pointer flex items-center">
 									<IconInbox size={25} stroke={2} className="mr-2" /> Resume
 								</Link>
 							</div>
