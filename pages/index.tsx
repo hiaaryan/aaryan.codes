@@ -78,7 +78,7 @@ const Home: NextPage = () => {
             className="relative h-full w-full !cursor-pointer hover:cursor-pointer"
           >
             <img
-              src="/beep-beep/Frame 12.png"
+              src="/beep-beep/Frame 8.png"
               className="h-full w-full object-cover object-center"
             />
           </Link>
@@ -92,11 +92,20 @@ const Home: NextPage = () => {
             />
           </Link>
           <Link
+            href="/projects/melea"
+            className="relative h-full w-full !cursor-pointer hover:cursor-pointer"
+          >
+            <img
+              src="/melea/Frame 12.png"
+              className="h-full w-full object-cover object-center"
+            />
+          </Link>
+          <Link
             href="/projects/tbim"
             className="relative h-full w-full !cursor-pointer hover:cursor-pointer"
           >
             <img
-              src="/tbim/Frame 4.png"
+              src="/tbim/Frame 5.png"
               className="h-full w-full object-cover object-center"
             />
           </Link>
