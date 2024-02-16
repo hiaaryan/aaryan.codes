@@ -328,6 +328,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/locomotive-scroll@npm:^4.1.3":
+  version: 4.1.3
+  resolution: "@types/locomotive-scroll@npm:4.1.3"
+  checksum: 10c0/a3bcc7dc52c7151ab5e8ce4ece890b372ae0a9bd0cdbeeef54952deb6bb5af088dba514097ba9a15042b0c8b12ce21ebe38a6d15e7f322aa5710bbf410b8da12
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:20.11.19":
   version: 20.11.19
   resolution: "@types/node@npm:20.11.19"
@@ -1894,6 +1901,7 @@ __metadata:
   resolution: "hiaaryan.com@workspace:."
   dependencies:
     "@tabler/icons-react": "npm:^2.47.0"
+    "@types/locomotive-scroll": "npm:^4.1.3"
     "@types/node": "npm:20.11.19"
     "@types/react": "npm:18.2.55"
     "@types/react-dom": "npm:18.2.19"
