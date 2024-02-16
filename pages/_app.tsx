@@ -10,7 +10,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       const locomotiveScroll = new LocomotiveScroll({
         lenisOptions: {
           lerp: 0.05,
-          smoothTouch: true,
           smoothWheel: true,
         },
       });
