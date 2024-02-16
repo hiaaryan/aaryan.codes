@@ -87,7 +87,7 @@ const Home: NextPage = () => {
             className="relative h-full w-full !cursor-pointer hover:cursor-pointer"
           >
             <img
-              src="/flotek/Frame 3.png"
+              src="/flotek/Frame 13.png"
               className="h-full w-full object-cover object-center"
             />
           </Link>
