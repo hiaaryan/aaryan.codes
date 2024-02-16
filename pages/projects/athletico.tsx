@@ -25,7 +25,7 @@ const athletico: NextPage = () => {
             className="fixed right-0 top-0 z-10 m-4 h-6 !cursor-pointer text-white mix-blend-difference lg:h-9"
           />
         </Link>
-        <div className="mt-14 flex w-auto select-none flex-col gap-4 p-4 pt-0 font-mono lg:mt-0 lg:min-h-screen lg:pt-4">
+        <div className="mt-14 flex w-auto select-none flex-col gap-4 p-4 pt-0 font-mono lg:min-h-screen lg:pt-4">
           <div className="relative h-full w-full">
             <img src="/athletico/Frame 1.png" className="h-full w-full" />
           </div>

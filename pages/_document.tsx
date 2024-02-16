@@ -16,7 +16,7 @@ export default function Document() {
         />
         <meta name="theme-color" content="#000000" />
       </Head>
-      <body className="cursor-default">
+      <body className="cursor-default bg-white">
         <Main />
         <NextScript />
       </body>
