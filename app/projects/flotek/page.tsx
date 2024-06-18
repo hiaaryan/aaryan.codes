@@ -1,6 +1,11 @@
+import { Metadata } from "next";
 import Image from "next/image";
 
-export default function flotek() {
+export const metadata: Metadata = {
+  title: "Aaryan Kapoor // FLOTEK",
+};
+
+export default function FLOTEK() {
   return (
     <main className="flex min-h-dvh justify-center">
       <div className="lg:mx-56 mx-6 py-16 w-full lg:py-20">

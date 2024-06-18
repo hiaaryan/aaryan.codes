@@ -1,4 +1,9 @@
+import { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "Aaryan Kapoor // Beep Beep",
+};
 
 export default function BeepBeep() {
   return (
