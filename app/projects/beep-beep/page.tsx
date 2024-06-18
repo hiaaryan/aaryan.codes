@@ -159,13 +159,14 @@ export default function BeepBeep() {
                   />
                 </div>
               </div>
-              <div className="flex items-center w-full gap-8">
+              <div className="hidden lg:block items-center w-full gap-8">
                 <div className="w-full shadow-xl rounded-xl lg:rounded-3xl overflow-hidden">
                   <Image
                     src="/beep-beep/Frame 14.png"
                     fill
                     className="!static h-full w-full"
                     alt="Aaryan Kapoor"
+                    unoptimized
                   />
                 </div>
               </div>
